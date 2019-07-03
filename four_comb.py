@@ -9,14 +9,14 @@ def combin(iterable, r):
         return
     indices = list(range(r))
     #yield tuple(pool[i] for i in indices)
-    yield tuple((tuple(pool[i] for i in indices),tuple(indices)))
+    yield tuple((tuple(pool[i] for i in indices),tuple(indices))) #Returns the first set of combinations
     while True:
         for i in reversed(range(r)):
-            if indices[i] != i + n - r:
+            if indices[i] != i + n - r:#the last combination will satisfy this and will return to main
                 break
         else:
             return
-        indices[i] += 1
+        indices[i] += 1#the value which does satisfied the above condition is incremented and combinations starts from there 
         for j in range(i+1, r):
             indices[j] = indices[j-1] + 1
         #yield tuple(pool[i] for i in indices) #Returns tuple of combination elements
