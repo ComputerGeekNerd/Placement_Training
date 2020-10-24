@@ -13,3 +13,5 @@ Q2 - Given an array of integers and a value'k'. Find the combination of any 4 nu
 Q3 - Implement a segment tree data structure with some utility functions.
 
 Q4 - Write a program to detect and remove the loop (if any) in the linked list.
+
+Q5 - Reverse a stack.
