@@ -11,3 +11,5 @@ Q1- Given string of number sequences. Assuming A=1, B=2..Z=26,find the number of
 Q2 - Given an array of integers and a value'k'. Find the combination of any 4 numbers in the array whose sum = k.  
 
 Q3 - Implement a segment tree data structure with some utility functions.
+
+Q4 - Write a program to detect and remove the loop (if any) in the linked list.
